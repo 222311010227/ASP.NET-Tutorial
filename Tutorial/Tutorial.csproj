@@ -71,6 +71,7 @@
     <Content Include="Assignment 1\Q2.aspx" />
     <Content Include="Assignment 1\Q3.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Q4.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +104,13 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q4.aspx.cs">
+      <DependentUpon>Q4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Q4.aspx.designer.cs">
+      <DependentUpon>Q4.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
