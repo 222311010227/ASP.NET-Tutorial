@@ -5,32 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>AutoPostBack Example</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            height: 453px;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .panel {
-            padding: 10px;
-            border: 1px solid #007bff;
-            border-radius: 5px;
-            background-color: #f0f8ff;
-            display: none;
-        }
-        .panel.visible {
-            display: block;
-        }
-    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -45,6 +20,7 @@
                 <asp:ListItem Text="Apple" Value="Apple"></asp:ListItem>
                 <asp:ListItem Text="Banana" Value="Banana"></asp:ListItem>
                 <asp:ListItem Text="Cherry" Value="Cherry"></asp:ListItem>
+                <asp:ListItem>Mango</asp:ListItem>
             </asp:DropDownList>
             <br />
             <br />
