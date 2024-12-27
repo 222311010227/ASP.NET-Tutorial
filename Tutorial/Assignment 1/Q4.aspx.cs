@@ -7,13 +7,21 @@ namespace Tutorial.Assignment_1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // This ensures the page behaves correctly during the postback lifecycle.
+            // Handle initialization during the first load
+           
         }
 
-        protected void ddlItems_SelectedIndexChanged(object sender, EventArgs e)
+        protected void ddlFruits_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Update the TextBox based on the selected value in the DropDownList.
-            txtSelectedItem.Text = ddlItems.SelectedItem.Text;
+            // Update the label based on the selected fruit
+            lblFruitSelection.Text = "You selected: " + ddlFruits.SelectedItem.Text;
+        }
+
+        protected void rblColors_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Change the background color of the page
+            string selectedColor = rblColors.SelectedValue;
+            form1.Style["background-color"] = selectedColor;
         }
     }
 }

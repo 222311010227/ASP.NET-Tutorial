@@ -24,39 +24,48 @@ namespace Tutorial.Assignment_1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblInstruction control.
+        /// lblDropDown control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblInstruction;
+        protected global::System.Web.UI.WebControls.Label lblDropDown;
 
         /// <summary>
-        /// ddlItems control.
+        /// ddlFruits control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlItems;
+        protected global::System.Web.UI.WebControls.DropDownList ddlFruits;
 
         /// <summary>
-        /// lblSelectedItem control.
+        /// lblFruitSelection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSelectedItem;
+        protected global::System.Web.UI.WebControls.Label lblFruitSelection;
 
         /// <summary>
-        /// txtSelectedItem control.
+        /// lblColor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSelectedItem;
+        protected global::System.Web.UI.WebControls.Label lblColor;
+
+        /// <summary>
+        /// rblColors control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblColors;
     }
 }
