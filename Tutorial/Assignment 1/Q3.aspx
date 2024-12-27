@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <h2>Algebraic Operations</h2>
+        <h2>&nbsp;Algebraic Operations</h2>
         
         <!-- Input for First Number -->
         <label for="txtNumber1">Enter First Value:&nbsp;&nbsp;&nbsp; </label>
@@ -36,12 +36,14 @@
         <br />
         
         <!-- Button to Perform Operation -->
-        <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" BackColor="Lime" />
+        <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
         
         <!-- Label to Display Result -->
         <br />
         <br />
         <asp:Label ID="lblResult" runat="server" CssClass="result-label"></asp:Label>
     </form>
+    <p>
+        Created By: 22SOECE11063_KULDIP ZARMARIYA</p>
 </body>
 </html>
