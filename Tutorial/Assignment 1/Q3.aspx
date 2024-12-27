@@ -36,7 +36,7 @@
         <br />
         
         <!-- Button to Perform Operation -->
-        <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" />
+        <asp:Button ID="btnCalculate" runat="server" Text="Calculate" OnClick="btnCalculate_Click" BackColor="Lime" />
         
         <!-- Label to Display Result -->
         <br />
