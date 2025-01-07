@@ -24,11 +24,11 @@
             </asp:DropDownList>
             <br />
             <br />
-            <asp:Label ID="lblFruitSelection" runat="server" Text="Your selected fruit will appear here."></asp:Label>
+            <asp:Label ID="lblFruitSelection" runat="server" Text="Your selected fruit is:"></asp:Label>
             <br />
             <hr />
 
-            <!-- RadioButtonList Example -->
+
             <br />
             <asp:Label ID="lblColor" runat="server" Text="Choose a background color:"></asp:Label>
             <br />
