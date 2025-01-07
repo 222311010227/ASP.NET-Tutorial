@@ -71,6 +71,8 @@
     <Content Include="Assignment 1\Q2.aspx" />
     <Content Include="Assignment 1\Q3.aspx" />
     <Content Include="Assignment 1\Q4.aspx" />
+    <Content Include="Assignment 2\Q1.aspx" />
+    <Content Include="Assignment 2\Q2.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +105,20 @@
     <Compile Include="Assignment 1\Q4.aspx.designer.cs">
       <DependentUpon>Q4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Assignment 2\Q1.aspx.cs">
+      <DependentUpon>Q1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 2\Q1.aspx.designer.cs">
+      <DependentUpon>Q1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 2\Q2.aspx.cs">
+      <DependentUpon>Q2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 2\Q2.aspx.designer.cs">
+      <DependentUpon>Q2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,9 +137,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assignment 2\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
