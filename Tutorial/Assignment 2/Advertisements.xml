@@ -1,12 +1,7 @@
 ﻿<Advertisements>
+
 	<Ad>
-		<ImageUrl>2.jpg</ImageUrl>
-		<NavigateUrl>https://example.com/ad2</NavigateUrl>
-		<AlternateText>Ad 2</AlternateText>
-		<Keyword>Education</Keyword>
-	</Ad>
-	<Ad>
-		<ImageUrl>3.jpeg</ImageUrl>
+		<ImageUrl></ImageUrl>
 		<NavigateUrl>https://example.com/ad3</NavigateUrl>
 		<AlternateText>Ad 3</AlternateText>
 		<Keyword>Shopping</Keyword>
