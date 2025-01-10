@@ -17,6 +17,7 @@
                 <TitleStyle BackColor="White" BorderColor="Black" BorderWidth="4px" Font-Bold="True" Font-Size="12pt" ForeColor="#333399" />
                 <TodayDayStyle BackColor="#CCCCCC" />
             </asp:Calendar>
+            <br />
             <asp:Label ID="Label1" runat="server" Text="My Selected Date Is: "></asp:Label>
         </div>
     </form>

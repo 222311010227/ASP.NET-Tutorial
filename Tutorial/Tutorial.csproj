@@ -77,6 +77,7 @@
     <Content Include="Assignment 2\2.jpg" />
     <Content Include="Assignment 2\Q1.aspx" />
     <Content Include="Assignment 2\Q2.aspx" />
+    <Content Include="Assignment 2\Q3.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="Assignment 2\Q2.aspx.designer.cs">
       <DependentUpon>Q2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 2\Q3.aspx.cs">
+      <DependentUpon>Q3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 2\Q3.aspx.designer.cs">
+      <DependentUpon>Q3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
