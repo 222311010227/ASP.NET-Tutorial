@@ -1,14 +1,14 @@
 ﻿<Advertisements>
 
 	<Ad>
-		<ImageUrl></ImageUrl>
+		<ImageUrl>apple.jpg</ImageUrl>
 		<NavigateUrl>https://example.com/ad3</NavigateUrl>
 		<AlternateText>Ad 3</AlternateText>
 		<Keyword>Shopping</Keyword>
 	</Ad>
 	<Ad>
 		<ImageUrl>1.jpg</ImageUrl>
-		<NavigateUrl>https://example.com/ad3</NavigateUrl>
+		<NavigateUrl>https://example.com/ad1</NavigateUrl>
 		<AlternateText>Ad 1</AlternateText>
 		<Keyword>Dog</Keyword>
 	</Ad>
