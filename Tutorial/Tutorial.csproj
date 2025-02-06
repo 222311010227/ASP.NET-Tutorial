@@ -81,11 +81,11 @@
     <Content Include="Assignment 2\Q3.aspx" />
     <Content Include="Assignment 3\Q1.aspx" />
     <Content Include="Assignment 3\Q2.aspx" />
+    <Content Include="Assignment 4\1.jpg" />
+    <Content Include="Assignment 4\3.jpg" />
+    <Content Include="Assignment 4\5.jpg" />
     <Content Include="Assignment 4\ContactUs.aspx" />
     <Content Include="Assignment 4\PhotoGallery.aspx" />
-    <Content Include="Assignment 4\Photo\1.jpg" />
-    <Content Include="Assignment 4\Photo\3.jpg" />
-    <Content Include="Assignment 4\Photo\5.jpg" />
     <Content Include="Assignment 4\Resume.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />

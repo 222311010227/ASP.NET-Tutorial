@@ -24,6 +24,7 @@
             </asp:ContentPlaceHolder>
             <footer>
                 <p>&copy; 2012: ALL RIGHTS ARE RESERVED</p>
+                <p>Created By: 22SOECE11063_KULDIP ZARMARIYYA</p>
             </footer>
         </div>
     </form>

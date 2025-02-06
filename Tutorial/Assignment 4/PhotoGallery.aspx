@@ -5,8 +5,9 @@
      <h2>Photo Gallery</h2>
     <div>
 
-        <img src="1.jpg" alt="Image 1" />
+        <img src="3.jpg" alt="Image 1" />
         <img src="5.jpg" alt="Image 2" />
+        <img src="1.jpg" alt="Image 2" />
 
     </div>
 </asp:Content>
