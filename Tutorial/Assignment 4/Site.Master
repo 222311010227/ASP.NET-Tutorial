@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Tutorial.Assignment_4.Site" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Your Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <h1>My Website</h1>
+                <nav>
+                    <ul>
+                        <li><a href="Resume.aspx">Resume</a></li>
+                        <li><a href="PhotoGallery.aspx">Photo Gallery</a></li>
+                        <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>
+                <p>&copy; 2012: ALL RIGHTS ARE RESERVED</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>

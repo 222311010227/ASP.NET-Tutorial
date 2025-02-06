@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\MyTheme\Style.css" />
     <Content Include="Assignment 1\Q1.aspx" />
     <Content Include="Assignment 1\Q2.aspx" />
     <Content Include="Assignment 1\Q3.aspx" />
@@ -80,6 +81,12 @@
     <Content Include="Assignment 2\Q3.aspx" />
     <Content Include="Assignment 3\Q1.aspx" />
     <Content Include="Assignment 3\Q2.aspx" />
+    <Content Include="Assignment 4\ContactUs.aspx" />
+    <Content Include="Assignment 4\PhotoGallery.aspx" />
+    <Content Include="Assignment 4\Photo\1.jpg" />
+    <Content Include="Assignment 4\Photo\3.jpg" />
+    <Content Include="Assignment 4\Photo\5.jpg" />
+    <Content Include="Assignment 4\Resume.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -147,6 +154,33 @@
     <Compile Include="Assignment 3\Q2.aspx.designer.cs">
       <DependentUpon>Q2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Assignment 4\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 4\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 4\PhotoGallery.aspx.cs">
+      <DependentUpon>PhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 4\PhotoGallery.aspx.designer.cs">
+      <DependentUpon>PhotoGallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 4\Resume.aspx.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Assignment 4\Resume.aspx.designer.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 4\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment 4\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -157,6 +191,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assignment 4\Site.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
